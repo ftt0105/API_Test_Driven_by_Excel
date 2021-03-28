@@ -172,7 +172,7 @@ class ParseExcel(object):
 if __name__ == '__main__':
     # 测试代码
     pe = ParseExcel()
-    pe.loadWorkBook(r'D:\ProgramSourceCode\interface_framework\stu2020531\interfaceFrameExcel\TestData\inter_test_data.xlsx')
+    pe.loadWorkBook(r'D:\phpStudy\API_Test_Driven_by_Excel\testdata\inter_test_data.xlsx')
     sheetObj = pe.getSheetByName("API")
     print("通过名称获取sheet对象的名字：", sheetObj.title)
     # print help(sheetObj.rows)

@@ -24,3 +24,7 @@ CASE_checkPoint = 6
 CASE_active = 7
 CASE_status = 8
 CASE_errorInfo = 9
+
+#依赖存储公共变量
+REQUEST_DATA = {}
+RESPONSE_DATA = {}
